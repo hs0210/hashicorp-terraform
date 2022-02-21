@@ -11,10 +11,10 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
+	proto "github.com/hashicorp/terraform-plugin-go/tfplugin5"
 	"github.com/hashicorp/terraform/builtin/providers/test"
 	"github.com/hashicorp/terraform/e2e"
 	grpcplugin "github.com/hashicorp/terraform/helper/plugin"
-	proto "github.com/hashicorp/terraform-plugin-sdk/tfplugin5"
 	tfplugin "github.com/hashicorp/terraform/plugin"
 )
 

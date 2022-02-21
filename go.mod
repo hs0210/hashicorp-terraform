@@ -33,8 +33,8 @@ require (
 	github.com/go-test/deep v1.0.3
 	github.com/gofrs/uuid v3.3.0+incompatible // indirect
 	github.com/golang/mock v1.4.4
-	github.com/golang/protobuf v1.4.2
-	github.com/google/go-cmp v0.5.2
+	github.com/golang/protobuf v1.5.0
+	github.com/google/go-cmp v0.5.7
 	github.com/google/uuid v1.1.1
 	github.com/gophercloud/gophercloud v0.10.1-0.20200424014253-c3bfe50899e5
 	github.com/gophercloud/utils v0.0.0-20200423144003-7c72efc7435d
@@ -51,18 +51,19 @@ require (
 	github.com/hashicorp/go-checkpoint v0.5.0
 	github.com/hashicorp/go-cleanhttp v0.5.1
 	github.com/hashicorp/go-getter v1.5.1
-	github.com/hashicorp/go-hclog v0.12.0
+	github.com/hashicorp/go-hclog v1.1.0
 	github.com/hashicorp/go-msgpack v0.5.4 // indirect
 	github.com/hashicorp/go-multierror v1.1.0
-	github.com/hashicorp/go-plugin v1.3.0
+	github.com/hashicorp/go-plugin v1.4.3
 	github.com/hashicorp/go-retryablehttp v0.5.2
 	github.com/hashicorp/go-rootcerts v1.0.2
 	github.com/hashicorp/go-tfe v0.8.1
-	github.com/hashicorp/go-uuid v1.0.1
+	github.com/hashicorp/go-uuid v1.0.2
 	github.com/hashicorp/go-version v1.2.1
 	github.com/hashicorp/hcl v0.0.0-20170504190234-a4b07c25de5f
 	github.com/hashicorp/hcl/v2 v2.8.2
 	github.com/hashicorp/terraform-config-inspect v0.0.0-20191212124732-c6ae6269b9d7
+	github.com/hashicorp/terraform-plugin-go v0.0.0-00010101000000-000000000000
 	github.com/hashicorp/terraform-plugin-sdk v0.0.0-00010101000000-000000000000
 	github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
 	github.com/jmespath/go-jmespath v0.4.0
@@ -114,13 +115,13 @@ require (
 	go.uber.org/zap v1.9.1 // indirect
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/mod v0.3.0
-	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
+	golang.org/x/net v0.0.0-20210119194325-5f4716e94777
 	golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43
-	golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f
+	golang.org/x/sys v0.0.0-20201119102817-f84b799fce68
 	golang.org/x/text v0.3.3
 	golang.org/x/tools v0.0.0-20201028111035-eafbe7b904eb
 	google.golang.org/api v0.34.0
-	google.golang.org/grpc v1.31.1
+	google.golang.org/grpc v1.44.0
 	gopkg.in/ini.v1 v1.42.0 // indirect
 	gopkg.in/yaml.v2 v2.2.8
 	k8s.io/api v0.0.0-20190620084959-7cf5895f2711
@@ -137,4 +138,6 @@ replace k8s.io/client-go => k8s.io/client-go v0.0.0-20190620085101-78d2af792bab
 
 go 1.14
 
-replace google.golang.org/grpc v1.31.1 => google.golang.org/grpc v1.27.1
+replace google.golang.org/grpc => google.golang.org/grpc v1.27.1
+
+replace github.com/hashicorp/terraform-plugin-go => github.com/hs0210/terraform-plugin-go v0.8.0
